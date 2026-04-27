@@ -160,6 +160,7 @@ btnValider.addEventListener('click' , ()=>{
         }
         
         reponseUser.value = ''
+        reponseUser.focus()
     }, 1500);
 
 })
