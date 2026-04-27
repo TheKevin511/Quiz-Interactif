@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Capital Quiz</title>
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/4146d8b2dd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://globle-game.com/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    
+    <!-- Le conteneur de depart -->
+    <div class="container-begin">
+
+        <h2>Prêt pour le quiz de <span id="totalQuiz"></span> questions</h2>
+
+        <button id="btnCommencer" class="btn">
+            Commencer le quiz
+        </button>
+
+    </div>
+
+    <!-- Le conteneur des différentes questions -->
+    <div class="container-all-quiz">
+        <p id="quizNumber"></p>
+        <p id="quiz"></p>
+
+        <input type="text" id="reponseUser" placeholder="Repondez ici..." autocomplete="off">
+
+        <button id="btnValider" class="btn" type="submit">
+            Valider
+        </button>
+        
+    </div>
+
+    <!-- Le conteneur du score -->
+    <div class="container-score">
+
+        <h2>Score</h2>
+
+        <div class="score">
+            <p id="scorePourcentage"></p>
+            <br><br>
+            <p id="scoreChiffre"></p>
+        </div>
+
+        <button id="btnTry" class="btn">
+            Réessayer
+        </button>
+        
+    </div>
+
+    <!-- Message d'attente avant de réessayer -->
+    <p id="attente" style="display: none;">
+        <i class="fa-solid fa-spinner fa-spin-pulse"></i>
+        Chargement...
+    </p>
+
+    
+
+
+
+</body>
+</html>
