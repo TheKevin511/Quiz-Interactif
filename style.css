@@ -191,3 +191,38 @@ h2{
 
 
 
+/* RESPONSIVE TABLETTE */
+@media screen and (max-width : 760px) {
+    .container-begin , .container-all-quiz , .container-score{
+        width: 60%;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    #quiz{
+        font-size: 20px;
+    }
+
+    #message{
+        font-size: 17px;
+    }
+}
+
+
+/* RESPONSIVE SMATPHONE */
+@media screen and (max-width : 400px){
+    .container-begin , .container-all-quiz , .container-score{
+        width: 80%;
+        height: 60vh;
+    }
+
+    #quiz{
+        font-size: 17px;
+    }
+
+    #reponseUser{
+        padding: 10px;
+    }
+}
