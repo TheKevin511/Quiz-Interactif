@@ -15,47 +15,57 @@ const attente = document.querySelector('#attente')
 
 // 2 . Tableau des questions - réponses
 let tableauQuiz = [
-    {
-        question: "Quelle est la capitale de la France ?",
-        reponse: "Paris"
-    },
-    {
-        question: "Quelle est la capitale du Japon ?",
-        reponse: "Tokyo"
-    },
-    {
-        question: "Quelle est la capitale de l'Australie ?",
-        reponse: "Canberra"
-    },
-    {
-        question: "Quelle est la capitale du Brésil ?",
-        reponse: "Brasília"
-    },
-    {
-        question: "Quelle est la capitale du Canada ?",
-        reponse: "Ottawa"
-    },
-    {
-        question: "Quelle est la capitale de la Côte d'Ivoire ?",
-        reponse: "Yamoussoukro"
-    },
-    {
-        question: "Quelle est la capitale du Sénégal ?",
-        reponse: "Dakar"
-    },
-    {
-        question: "Quelle est la capitale de l'Argentine ?",
-        reponse: "Buenos Aires"
-    },
-    {
-        question: "Quelle est la capitale de l'Inde ?",
-        reponse: "New Delhi"
-    },
-    {
-        question: "Quelle est la capitale de l'Égypte ?",
-        reponse: "Le Caire"
-    },
-]
+    { question: "Quelle est la capitale de la France ?", reponse: "Paris" },
+    { question: "Quelle est la capitale du Japon ?", reponse: "Tokyo" },
+    { question: "Quelle est la capitale de l'Australie ?", reponse: "Canberra" },
+    { question: "Quelle est la capitale du Brésil ?", reponse: "Brasília" },
+    { question: "Quelle est la capitale du Canada ?", reponse: "Ottawa" },
+    { question: "Quelle est la capitale de la Côte d'Ivoire ?", reponse: "Yamoussoukro" },
+    { question: "Quelle est la capitale du Sénégal ?", reponse: "Dakar" },
+    { question: "Quelle est la capitale de l'Argentine ?", reponse: "Buenos Aires" },
+    { question: "Quelle est la capitale de l'Inde ?", reponse: "New Delhi" },
+    { question: "Quelle est la capitale de l'Égypte ?", reponse: "Le Caire" },
+    { question: "Quelle est la capitale de l'Italie ?", reponse: "Rome" },
+    { question: "Quelle est la capitale de l'Espagne ?", reponse: "Madrid" },
+    { question: "Quelle est la capitale de l'Allemagne ?", reponse: "Berlin" },
+    { question: "Quelle est la capitale du Portugal ?", reponse: "Lisbonne" },
+    { question: "Quelle est la capitale du Royaume-Uni ?", reponse: "Londres" },
+    { question: "Quelle est la capitale de la Grèce ?", reponse: "Athènes" },
+    { question: "Quelle est la capitale de la Russie ?", reponse: "Moscou" },
+    { question: "Quelle est la capitale de la Belgique ?", reponse: "Bruxelles" },
+    { question: "Quelle est la capitale de la Suisse ?", reponse: "Berne" },
+    { question: "Quelle est la capitale des Pays-Bas ?", reponse: "Amsterdam" },
+    { question: "Quelle est la capitale de la Turquie ?", reponse: "Ankara" },
+    { question: "Quelle est la capitale de la Chine ?", reponse: "Pékin" },
+    { question: "Quelle est la capitale de la Corée du Sud ?", reponse: "Séoul" },
+    { question: "Quelle est la capitale de la Thaïlande ?", reponse: "Bangkok" },
+    { question: "Quelle est la capitale du Vietnam ?", reponse: "Hanoï" },
+    { question: "Quelle est la capitale de l'Indonésie ?", reponse: "Jakarta" },
+    { question: "Quelle est la capitale du Maroc ?", reponse: "Rabat" },
+    { question: "Quelle est la capitale de l'Algérie ?", reponse: "Alger" },
+    { question: "Quelle est la capitale de la Tunisie ?", reponse: "Tunis" },
+    { question: "Quelle est la capitale du Mali ?", reponse: "Bamako" },
+    { question: "Quelle est la capitale du Burkina Faso ?", reponse: "Ouagadougou" },
+    { question: "Quelle est la capitale du Ghana ?", reponse: "Accra" },
+    { question: "Quelle est la capitale du Nigeria ?", reponse: "Abuja" },
+    { question: "Quelle est la capitale du Cameroun ?", reponse: "Yaoundé" },
+    { question: "Quelle est la capitale du Kenya ?", reponse: "Nairobi" },
+    { question: "Quelle est la capitale de l'Afrique du Sud ?", reponse: "Pretoria" },
+    { question: "Quelle est la capitale des États-Unis ?", reponse: "Washington" },
+    { question: "Quelle est la capitale du Mexique ?", reponse: "Mexico" },
+    { question: "Quelle est la capitale de Cuba ?", reponse: "La Havane" },
+    { question: "Quelle est la capitale du Chili ?", reponse: "Santiago" },
+    { question: "Quelle est la capitale de la Colombie ?", reponse: "Bogota" },
+    { question: "Quelle est la capitale du Pérou ?", reponse: "Lima" },
+    { question: "Quelle est la capitale de la Norvège ?", reponse: "Oslo" },
+    { question: "Quelle est la capitale de la Suède ?", reponse: "Stockholm" },
+    { question: "Quelle est la capitale de la Pologne ?", reponse: "Varsovie" },
+    { question: "Quelle est la capitale de l'Autriche ?", reponse: "Vienne" },
+    { question: "Quelle est la capitale de la Croatie ?", reponse: "Zagreb" },
+    { question: "Quelle est la capitale de l'Arabie Saoudite ?", reponse: "Riyad" },
+    { question: "Quelle est la capitale de l'Ukraine ?", reponse: "Kiev" },
+    { question: "Quelle est la capitale de la Nouvelle-Zélande ?", reponse: "Wellington" }
+];
 
 totalQuiz.textContent = tableauQuiz.length
 
